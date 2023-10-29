@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="which-player-turn">X turn</div>
+
+    <div class="tictactoe">
+        <div class="cell" onclick="placeMarker(this)"></div>
+        <div class="cell" onclick="placeMarker(this)"></div>
+        <div class="cell" onclick="placeMarker(this)"></div>
+        <div class="cell" onclick="placeMarker(this)"></div>
+        <div class="cell" onclick="placeMarker(this)"></div>
+        <div class="cell" onclick="placeMarker(this)"></div>
+        <div class="cell" onclick="placeMarker(this)"></div>
+        <div class="cell" onclick="placeMarker(this)"></div>
+        <div class="cell" onclick="placeMarker(this)"></div>
+    </div>
+    <div>
+        <div class="button-container">
+            <button id="reset-btn" onclick="resetAll()"> RESET </button> <!-- reset the markers -->
+        </div>
+    </div>
+    <div class="scores">
+
+        <div>
+            <div class="xscore" id="xID"> X Wins: </div>
+            <div class="oscore" id="oID"> O Wins: </div>
+        </div>
+    </div> <!-- b 
+    -->
+    
+    <script src="TTTscript.js"></script>
+
+</body>
+
+</html>
