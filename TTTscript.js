@@ -20,7 +20,13 @@ function?
 */
 
 
-
+function clearFunction(){
+  xScoreText.innerHTML = "X Wins: ";
+  oScoreText.innerHTML = "O Wins: ";
+  xWinScore = 0;
+  oWinScore = 0;
+  tie = false;
+}
 
 function placeMarker(element){
   moves++;
